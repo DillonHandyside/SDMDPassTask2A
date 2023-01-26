@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Wish You Were Here!</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="WishYouWereHere">Wish You Were Here!</string>
+
+    <!-- Birdsland -->
+    <string name="Birdsland">Birdsland Reserve</string>
+    <string name="BirdslandDescription">A beautiful place to walk, with lots of wildlife and secrets. My favourite on this list! Scary at night.</string>
+    <string name="BirdslandSuburb">Belgrave, Melbourne, Australia</string>
+    <string name="BirdslandVisited">Last visited: October 2022</string>
+
+    <!-- Puffing Billy -->
+    <string name="PuffingBilly">Puffing Billy</string>
+    <string name="PuffingBillyDescription">An old-fashioned train that uses coals. I haven\'t been since I was a kid, but I remember it being pretty fun. They also do Thomas the Tank Engine sometimes</string>
+    <string name="PuffingBillySuburb">Belgrave, Melbourne, Australia</string>
+    <string name="PuffingBillyVisited">Last visited: 10+ years ago</string>
+
+    <!-- Thousand Steps -->
+    <string name="ThousandSteps">The Thousand Steps</string>
+    <string name="ThousandStepsDescription">A steep walking track, for tourism and fitness. Not for the faint of heart!</string>
+    <string name="ThousandStepsSuburb">Upper Ferntree Gully, Melbourne, Australia</string>
+    <string name="ThousandStepsVisited">Last visited: October 2022</string>
+
+    <!-- Thousand Steps -->
+    <string name="FtgPark">Ferntree Gully Park</string>
+    <string name="FtgParkDescription">A variety of different sights and things to do at this park. A bit far away from my house, so I don\'t visit often.</string>
+    <string name="FtgParkSuburb">Ferntree Gully, Melbourne, Australia</string>
+    <string name="FtgParkVisited">Last visited: January 2023</string>
+
+    <string name="RatingBarDescription">Rating Bar</string>
+</resources>

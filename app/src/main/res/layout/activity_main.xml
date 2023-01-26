@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/homeTitle"
+            style="@style/Theme.MyApplication"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:gravity="center"
+            android:text="@string/WishYouWereHere"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/WishYouWereHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="296dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Birdsland"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:baselineAligned="false"
+                        android:contentDescription="@string/Birdsland"
+                        android:padding="2dp"
+                        app:srcCompat="@drawable/birdsland" />
+
+                    <TextView
+                        android:id="@+id/birdslandTitle"
+                        style="@style/Theme.MyApplication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/Birdsland"
+                        tools:text="@string/Birdsland" />
+
+                    <RatingBar
+                        android:id="@+id/birdslandRating"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:numStars="5"
+                        android:rating="4.5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/FtgPark"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:baselineAligned="false"
+                        android:contentDescription="@string/FtgPark"
+                        android:padding="2dp"
+                        app:srcCompat="@drawable/ftg_park" />
+
+                    <TextView
+                        android:id="@+id/ftgParkTitle"
+                        style="@style/Theme.MyApplication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/FtgPark"
+                        tools:text="@string/FtgPark" />
+
+                    <RatingBar
+                        android:id="@+id/ftgParkRating"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:numStars="5"
+                        android:rating="4" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/PuffingBilly"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:baselineAligned="false"
+                        android:contentDescription="@string/PuffingBilly"
+                        android:padding="2dp"
+                        app:srcCompat="@drawable/puffing_billy" />
+
+                    <TextView
+                        android:id="@+id/puffingBillyTitle"
+                        style="@style/Theme.MyApplication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/PuffingBilly" />
+
+                    <RatingBar
+                        android:id="@+id/puffingBillyRating"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:numStars="5"
+                        android:rating="3.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ThousandSteps"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:baselineAligned="false"
+                        android:contentDescription="@string/RatingBarDescription"
+                        android:padding="2dp"
+                        app:srcCompat="@drawable/thousand_steps" />
+
+                    <TextView
+                        android:id="@+id/thousandStepsTitle"
+                        style="@style/Theme.MyApplication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/ThousandSteps" />
+
+                    <RatingBar
+                        android:id="@+id/thousandStepsRating"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:numStars="5"
+                        android:rating="4" />
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
